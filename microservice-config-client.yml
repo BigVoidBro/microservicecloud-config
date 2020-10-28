@@ -11,7 +11,7 @@ spring:
     name: microserviceclient-config-client
 eureka: 
   client: 
-  server-url: 
+  service-url: 
     defaultZone: http://fuckcloud7001:7001/eureka/
 ---
 server: 
@@ -22,5 +22,5 @@ spring:
     name: microserviceclient-config-client
 eureka: 
   client: 
-  server-url: 
+  service-url: 
     defaultZone: http://fuckcloud7001:7001/eureka/
