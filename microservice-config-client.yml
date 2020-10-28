@@ -1,0 +1,15 @@
+spring: 
+  profiles: 
+    active:
+    - dev
+---
+server: 
+  port: 8201
+spring: 
+  profiles: dev
+  application:
+    name: microserviceclient-config-client
+eureka: 
+  client: 
+  server-url: 
+    defaultZone: http://fuckcloud7001:7001/eureka/
