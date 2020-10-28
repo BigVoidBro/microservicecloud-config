@@ -13,3 +13,14 @@ eureka:
   client: 
   server-url: 
     defaultZone: http://fuckcloud7001:7001/eureka/
+---
+server: 
+  port: 8202
+spring: 
+  profiles: test
+  application:
+    name: microserviceclient-config-client
+eureka: 
+  client: 
+  server-url: 
+    defaultZone: http://fuckcloud7001:7001/eureka/
